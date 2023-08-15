@@ -25,6 +25,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 axios.defaults.baseURL = process.env.VUE_APP_REMOTE_API;
 
+/* Create a new vue instance */
 new Vue({
   router,
   store,
